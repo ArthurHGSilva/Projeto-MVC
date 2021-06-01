@@ -1,0 +1,37 @@
+a{
+    text-decoration:none;
+    color: #212529
+}
+
+a:hover{
+    color: #0085a1
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+span{
+    font-family: Lora,'Times New Roman',serif;
+    font-size: 20px;
+    
+}
+
+.btn-primary{
+    background: #0085a1;
+    border-color: #0085a1;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-weight: 800;
+    transition: transform 0.6s ease-in-out;  
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #00657b !important;
+    border-color: #00657b !important;
+}
+
